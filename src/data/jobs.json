@@ -1,0 +1,32 @@
+[
+  {
+    "name": "PT. Alfa Rekacipta Kreasi (WeekendInc)",
+    "position": "Backend Developer",
+    "date": "September 2020 - present",
+    "description": [
+      "Develop and maintain api and web application project using Node.JS",
+      "Deploy new application to server",
+      "Collaborate with teams of QA, FE, Designer, and Project Manager to develop web and mobile app"
+    ],
+    "link": "https://weekendinc.com"
+  },
+  {
+    "name": "PT. Docotel Teknologi Indonesia",
+    "position": "PHP Programmer",
+    "date": "November 2018 - September 2020",
+    "description": [
+      "Develop, bugfix and optimize web application using PHP and its framework such as Yii2 and Laravel",
+      "Collaborate with helpdesk team to solve issued ticket"
+    ],
+    "link": "https://docotel.com"
+  },
+  {
+    "name": "PT. Visionet Data Internasional",
+    "position": "Technical Support Engineer",
+    "date": "April 2014 - September 2018",
+    "description": [
+      "Configuring and troubleshooting Computer Hardware related in various customer site"
+    ],
+    "link": "https://visionet.co.id"
+  }
+]

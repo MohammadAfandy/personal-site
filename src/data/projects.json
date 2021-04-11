@@ -1,0 +1,23 @@
+[
+  {
+    "project": "Starter Node JS",
+    "language": "Node.js, React.js, MySQL",
+    "description": "Starter project to build standard backend api service.",
+    "github": "https://github.com/MohammadAfandy/starter-node",
+    "link": "https://web.starter-node.xyz"
+  },
+  {
+    "project": "Decision Support System",
+    "language": "Yii2, Postgres",
+    "description": "Decision Support Systems Application with SAW and WP Method.",
+    "github": "https://github.com/MohammadAfandy/spk-app",
+    "link": "https://spk-app.herokuapp.com"
+  },
+  {
+    "project": "Video App",
+    "language": "Lumen, VueJS, Postgres",
+    "description": "Simple Video Management System",
+    "github": "https://github.com/MohammadAfandy/Video-App",
+    "link": "https://video-app-frontend.herokuapp.com"
+  }
+]
