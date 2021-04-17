@@ -1,5 +1,12 @@
 [
   {
+    "project": "Calendar App",
+    "language": "Typescript, Node.js, Vue.js, MongoDB",
+    "description": "Simple Calendar App with Reminder Feature.",
+    "github": "https://github.com/MohammadAfandy/calendar-frontend",
+    "link": "https://calendar.mohammadafandy.com/"
+  },
+  {
     "project": "Starter Node JS",
     "language": "Node.js, React.js, MySQL",
     "description": "Starter project to build standard backend api service.",
