@@ -11,7 +11,7 @@
     "language": "Node.js, React.js, MySQL",
     "description": "Starter project to build standard backend api service.",
     "github": "https://github.com/MohammadAfandy/starter-node",
-    "link": "https://web.starter-node.xyz"
+    "link": "https://starter.mohammadafandy.com"
   },
   {
     "project": "Decision Support System",
@@ -25,6 +25,6 @@
     "language": "Lumen, VueJS, Postgres",
     "description": "Simple Video Management System",
     "github": "https://github.com/MohammadAfandy/Video-App",
-    "link": "https://video-app-frontend.herokuapp.com"
+    "link": "https://video-app.mohammadafandy.com"
   }
 ]
