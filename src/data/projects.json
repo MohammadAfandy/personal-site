@@ -1,5 +1,12 @@
 [
   {
+    "project": "COVID19 Statistic",
+    "language": "Node.js, React.js",
+    "description": "COVID 19 Statistic in Indonesia.",
+    "github": "https://github.com/MohammadAfandy/covid19-react",
+    "link": "https://covid19.mohammadafandy.com/"
+  },
+  {
     "project": "Calendar App",
     "language": "Typescript, Node.js, Vue.js, MongoDB",
     "description": "Simple Calendar App with Reminder Feature.",
