@@ -1,5 +1,12 @@
 [
   {
+    "project": "Spotify Clone",
+    "language": "Typescript, React.js, Node.js",
+    "description": "Spotify clone web player app.",
+    "github": "https://github.com/MohammadAfandy/spotify-clone-frontend",
+    "link": "https://spotify-clone.mohammadafandy.com/"
+  },
+  {
     "project": "COVID19 Statistic",
     "language": "Node.js, Next.js",
     "description": "COVID 19 Statistic in Indonesia.",
