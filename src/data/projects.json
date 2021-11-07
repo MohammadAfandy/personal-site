@@ -1,5 +1,19 @@
 [
   {
+    "project": "Radio SV",
+    "language": "Svelte",
+    "description": "Stream and listen radio from round the world.",
+    "github": "https://github.com/MohammadAfandy/radio-online",
+    "link": "https://radio-online-eight.vercel.app/"
+  },
+  {
+    "project": "Restopedia PWA",
+    "language": "VanillaJS",
+    "description": "Progressive Web Application restaurant finder.",
+    "github": "https://github.com/MohammadAfandy/restopedia",
+    "link": "https://restopedia.mohammadafandy.com/"
+  },
+  {
     "project": "Spotify Clone",
     "language": "Typescript, React.js, Node.js",
     "description": "Spotify clone web player app.",
