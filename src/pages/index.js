@@ -7,10 +7,11 @@ import Content from "../components/landing/content"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
     <Hero />
     <Content />
   </Layout>
 )
+
+export const Head = () => <SEO title="Home" />
 
 export default IndexPage

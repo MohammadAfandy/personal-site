@@ -5,6 +5,9 @@
  */
 
 module.exports = {
+  flags: {
+    DEV_SSR: true,
+  },
   /* Your site config here */
   siteMetadata: {
     title: `Mohammad Afandy`,
@@ -12,7 +15,7 @@ module.exports = {
     author: `Mohammad Afandy`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -42,26 +45,7 @@ module.exports = {
         path: `${__dirname}/src/data`,
       },
     },
-    `gatsby-plugin-dark-mode`,
+    // SCSS support (native compile didn't apply in Gatsby 5; needs this plugin)
     `gatsby-plugin-sass`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    `gatsby-plugin-offline`,
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: [
-          "UA-193182434-1",  
-        ],
-        gtagConfig: {
-          anonymize_ip: true,
-        },
-        pluginConfig: {
-          // Puts tracking script in the head instead of the body
-          head: false,
-        },
-      },
-    },
   ],
 }

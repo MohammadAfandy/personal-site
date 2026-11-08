@@ -1,19 +1,34 @@
 import { Link } from "gatsby"
 import React from "react"
 
-// import Toggler from "./toggler"
-
-import { ThemeToggler } from "gatsby-plugin-dark-mode"
-
-// import { Link } from "gatsby"
-// import PropTypes from "prop-types"
-// import React from "react"
-
-// import { Link } from "gatsby"
-// import PropTypes from "prop-types"
 import { Component } from "react"
 import { StaticQuery, graphql } from "gatsby"
-// import config from '../../../config';
+import { useTheme } from "../utils/theme"
+
+function ThemeToggle() {
+  const [theme, toggleTheme] = useTheme()
+  return (
+    <label className="theme-toggler nav-link">
+      <input
+        type="checkbox"
+        // Flip logical state on every change event; the DOM's checked value is
+        // transient (label+input can double-toggle before `change` dispatches)
+        onChange={() => toggleTheme(theme === "dark" ? "light" : "dark")}
+        checked={theme === "dark"}
+      />
+      {/* Icon can differ between SSR (unknown theme) and first client render */}
+      {theme === "dark" ? (
+        <span role="img" aria-label="Sun" suppressHydrationWarning>
+          🌞
+        </span>
+      ) : (
+        <span role="img" aria-label="Moon" suppressHydrationWarning>
+          🌚
+        </span>
+      )}
+    </label>
+  )
+}
 
 export default class Header extends Component {
   constructor(props) {
@@ -72,43 +87,8 @@ export default class Header extends Component {
                   id="navbarResponsive"
                 >
                   <ul className="navbar-nav ml-auto">
-                    {/* <li className="nav-item my-auto ml-2">
-                      <Link className="nav-link" to="/about">
-                        About
-                      </Link>
-                    </li>
                     <li className="nav-item my-auto ml-2">
-                      <Link className="nav-link" to="/contact">
-                        Contact
-                      </Link>
-                    </li> */}
-                    <li className="nav-item my-auto ml-2">
-                      <ThemeToggler>
-                        {({ theme, toggleTheme }) => (
-                          <label className="theme-toggler nav-link">
-                            <input
-                              type="checkbox"
-                              onChange={e =>
-                                toggleTheme(e.target.checked ? "dark" : "light")
-                              }
-                              checked={theme === "dark"}
-                            />
-                            {theme === "dark" ? (
-                              <div>
-                                <span role="img" aria-label="Sun">
-                                  🌞
-                                </span>
-                              </div>
-                            ) : (
-                              <div>
-                                <span role="img" aria-label="Moon">
-                                  🌚
-                                </span>
-                              </div>
-                            )}
-                          </label>
-                        )}
-                      </ThemeToggler>
+                      <ThemeToggle />
                     </li>
                   </ul>
                 </div>

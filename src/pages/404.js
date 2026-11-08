@@ -6,7 +6,6 @@ import notfoundimg from "../images/notfound.svg"
 
 const Page404 = () => (
   <Layout>
-    <SEO title="Page Not Found" />
     <section className="page404">
       <div className="container">
         <div className="row row-404 mt-4 float-right">
@@ -52,5 +51,7 @@ const Slider = () => {
     </div>
   )
 }
+
+export const Head = () => <SEO title="Page Not Found" />
 
 export default Page404
